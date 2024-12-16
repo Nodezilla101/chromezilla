@@ -20,4 +20,5 @@ Follow these steps to install Chromezilla:
 Stay up-to-date with the latest news and updates from Nodezilla101:
 
 **Join Nodzillaz on Discord: https://discord.gg/RAEnTZSEVh**
+
 **Join Nodzillaz on Telegram: https://t.me/nodezilla101**
