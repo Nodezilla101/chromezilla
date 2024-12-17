@@ -14,7 +14,7 @@ Follow these steps to install Chromezilla:
 ```chmod +x chromezilla.sh```
 
 **Step 4: Run the Installation Script**
-```./chromezilla```
+```./chromezilla.sh```
 
 **Join the Community**
 Stay up-to-date with the latest news and updates from Nodezilla101:
