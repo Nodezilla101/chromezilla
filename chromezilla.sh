@@ -70,6 +70,9 @@ install_browser() {
         -v ${HOME_DIR}/chromium/config:/config \
         --shm-size=4gb \
         --restart unless-stopped \
+        --device=/dev/video0:/dev/video0 \
+        -e CHROMIUM_FLAGS="--enable-camera --allow-http-screen-capture --use-fake-ui-for-media-stream" \
+        -e CHROMIUM_ARGS="--use-fake-device-for-media-stream --media-stream-capture-device=/dev/video0" \
         lscr.io/linuxserver/chromium:latest
     echo -e "${GREEN}✅ Browser successfully installed and running on port ${PORT}.${RESET}"
     read -p "Press enter to continue..."
