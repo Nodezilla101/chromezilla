@@ -69,6 +69,7 @@ install_browser() {
         -e LANGUAGE=en_US.UTF-8 \
         -v ${HOME_DIR}/chromium/config:/config \
         --shm-size=4gb \
+        --memory=3g \
         --restart unless-stopped \
         lscr.io/linuxserver/chromium:latest
     echo -e "${GREEN}✅ Browser successfully installed and running on port ${PORT}.${RESET}"
